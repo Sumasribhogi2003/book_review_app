@@ -5,7 +5,7 @@ A backend exercise to build a Book Review service using FastAPI, SQLAlchemy, Red
 ### ✅ Features
 #### API Endpoints:
 
-GET /books – List all books
+* GET /books – List all books
 
 POST /books – Add a new book
 
