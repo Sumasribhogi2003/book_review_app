@@ -3,7 +3,7 @@
 A backend exercise to build a Book Review service using FastAPI, SQLAlchemy, Redis, and Pytest.
 
 ### ✅ Features
-API Endpoints:
+#### API Endpoints:
 
 GET /books – List all books
 
