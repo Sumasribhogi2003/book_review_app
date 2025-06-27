@@ -62,30 +62,29 @@ Swagger Docs: http://localhost:8000/docs
 ReDoc Docs: http://localhost:8000/redoc
 
 ### 🔄 Run Migrations (Alembic)
-* Initialize Alembic:
+1. Initialize Alembic:
 
 alembic init alembic
-* Configure:
+*2. Configure:
 
- Update alembic.ini with your DB URL
+* Update alembic.ini with your DB URL
  
- Set up alembic/env.py to use SQLAlchemy models
+* Set up alembic/env.py to use SQLAlchemy models
 
-* Create a migration:
+3. Create a migration:
 
 alembic revision --autogenerate -m "Create tables"
 
-* Apply the migration:
+4. Apply the migration:
 
 alembic upgrade head
 
 ### ✅ Run Tests
-Run all tests:
+* Run all tests:
 
 pytest
 
-* Includes:
+Includes:
 
-Unit tests for adding and fetching books
-
-Integration test for Redis cache-miss behavior
+* Unit tests for adding and fetching books
+* Integration test for Redis cache-miss behavior
