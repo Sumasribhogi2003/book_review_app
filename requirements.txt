@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+fastapi
+uvicorn
+sqlalchemy
+alembic
+pydantic
+redis
