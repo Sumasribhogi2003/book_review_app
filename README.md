@@ -3,17 +3,12 @@
 A backend exercise to build a Book Review service using FastAPI, SQLAlchemy, Redis, and Pytest.
 
 ### ✅ Features
-#### API Endpoints:
-
+** API Endpoints:
 * GET /books – List all books
-
-POST /books – Add a new book
-
-GET /books/{id}/reviews – Get reviews for a specific book
-
-POST /books/{id}/reviews – Add a review to a book
-
-Documentation:
+* POST /books – Add a new book
+* GET /books/{id}/reviews – Get reviews for a specific book
+* POST /books/{id}/reviews – Add a review to a book
+** Documentation:
 
 Auto-generated Swagger UI (/docs)
 
