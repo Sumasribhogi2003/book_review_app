@@ -51,4 +51,14 @@ A backend exercise to build a Book Review service using FastAPI, SQLAlchemy, Red
   
 * (Optional) Start Redis locally if testing caching.
 
+### ▶️ Run the Service
+* Run the API server:
+
+  uvicorn app.main:app --reload
+* Open in browser:
+
+Swagger Docs: http://localhost:8000/docs
+
+ReDoc Docs: http://localhost:8000/redoc
+
 
